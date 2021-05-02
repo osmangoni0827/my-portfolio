@@ -1,0 +1,43 @@
+.contact{
+   width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 5%;
+    background-color: rgb(250, 240, 240);
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 360px) {
+    .contact{
+      width: 312px;
+    }
+  }
+.contacts h2{
+    /* width: 300px; */
+    padding-top: 2%;
+    margin: 4%;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: turquoise;
+    margin: 50px auto;
+    width: 300px;
+    padding-bottom: 7px;
+    border-bottom: 5px solid #FAF0F0;
+}
+.formclass{
+    margin-top: 10%;
+}
+.formclass button{
+    display: block;
+    margin: 0px auto;
+    background-color: #40E0D0;
+}
+.formclass input{
+    height: 50px;
+    font-size: 15px;
+}
+.formclass .massage input{
+    height: 100px;
+    margin-bottom: 2%;
+}

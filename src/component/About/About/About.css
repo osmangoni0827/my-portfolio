@@ -1,0 +1,25 @@
+.Information{
+    margin-top: 4%;
+    width: 600px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8%;
+}
+.intro{
+    text-align: center;
+}
+.aboutImage{
+    width: 50%;
+    color: rgb(10, 10, 10);
+    margin: 0px auto;
+}
+.aboutImage img{
+    border-radius: 4%;
+    text-align: center;
+    width: 100%;
+}
+.icon {
+    padding: 4px;
+}
+.socialIcon{
+    text-align: center;
+}

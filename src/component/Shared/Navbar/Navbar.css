@@ -1,0 +1,17 @@
+.navbar{
+    background-color: rgb(17, 16, 16);
+    height: 60px;
+}
+.navbar a{
+    padding: 6px 0px 2px 40px; 
+    
+}
+.navbar a img{
+    width: 40%;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 2px 40px 2px 0px;
+    font-size: 22px;
+    color: rgb(253, 253, 253);
+}

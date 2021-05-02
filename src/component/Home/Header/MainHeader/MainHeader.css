@@ -1,0 +1,45 @@
+.mainheader{
+    margin-bottom: 50px;
+}
+
+.Intro{
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.Intro h1{
+    font-size: 45px;
+    font-family: 'Roboto Slab', serif;
+}
+.Intro h1 span{
+    color: #f8f3f3;
+}
+.Intro h3{
+    padding-top: 15px;
+}
+.Intro p{
+    font-size: 18px;
+}
+.Image{
+    margin-top: 5%;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+.Image img{
+    width: 100%;
+}
+.mainButton{
+    margin: 4px;
+    width: 100px;
+    height: 50px;
+    color: black;
+    background-color: #fdfdfd;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 2px 15px 2px 15px;
+}
+

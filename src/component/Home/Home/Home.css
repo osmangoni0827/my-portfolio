@@ -1,0 +1,30 @@
+.home{
+    background-color: ;
+}
+
+
+.projectSection{
+    background-color: #fcfdff;
+    padding-bottom: 3%;
+}
+.homebutton{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(9, 186, 240);
+    margin: 0px auto;
+    margin-top: 5px;
+    display: block;
+    font-weight: 500;
+}
+.projectSection a,.blog-section a{
+    text-decoration: none;
+}
+.blog-section{
+ color: rgb(14, 13, 13);
+    background-color: white;
+    padding-bottom: 3%;
+}
+
+.contract{
+    background-color: rgb(255, 255, 255);
+}

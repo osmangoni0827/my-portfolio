@@ -1,0 +1,24 @@
+.education,.course{
+    padding: 10px;
+    color: rgb(34, 28, 28);
+}
+.educations{
+    margin-left: 10px;
+}
+.educations h2{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: #0AD0EB;
+    margin: 50px auto;
+    width: 300px;
+    padding-bottom: 7px;
+    border-bottom: 5px solid #52575a;
+}
+.education h3{
+    padding: 5px;
+}
+.education p ,.course p{
+    padding: 3px;
+    margin: 0px;
+}
