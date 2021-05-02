@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Blog from '../../Blog/Blog/Blog';
 import Project from '../../Portfolio/Project/Project';
 import Header from '../Header/Header/Header';
+import Footer from '../../Footer/Footer';
 import './Home.css';
 import ContactInfo from '../../Contact/Contact/ContactInfo/ContactInfo';
 const Home = () => {
@@ -25,7 +26,10 @@ const Home = () => {
                 <section className='contract'>
                 <ContactInfo></ContactInfo>
                 </section>
-               
+                <section className='footerInHome'>
+                <Footer color={'#000000'}></Footer>
+                </section>
+                
            </div>
         </div>
     );

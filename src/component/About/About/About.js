@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faGithub, faLinkedin, faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
+import Footer from '../../Footer/Footer';
 const About = () => {
     return (
         <div>
@@ -59,7 +60,11 @@ I am learning about JavaScript-based software development technology. I love to 
                 </div>
                 </div>
             </div>
+            <section style={{color:'black'}} className='bg-light'>
+            <Footer color={'#000000'}></Footer>
+            </section>
         </div>
+        
     );
 };
 
