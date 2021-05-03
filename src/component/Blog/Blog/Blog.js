@@ -3,7 +3,7 @@ import BlogInformation from '../BlogInformation/BlogInformation';
 import NodeImage from '../../../image/NodejsBanner-1-1.jpg';
 import ReactImage from '../../../image/react-ui-component-libraries-frameworks.jpg';
 import JavascriptImage from '../../../image/Javascript.jpg';
-import './blog.css';
+
 const BlogInfo=[
     {
         title:'Why you learn Javascript Programming',
@@ -23,10 +23,10 @@ const BlogInfo=[
 ]
 const Blog = () => {
     return (
-        <div className='d-flex justify-content-center'> 
-            <div className='blog '>
-            <h2>My Blog</h2>
-           <div className='row'>
+        <div className='pt-5'>
+            <div className='d-flex justify-content-center'> 
+           
+           <div className='row p-4'>
                 {
                     BlogInfo.map(info=><BlogInformation info={info}></BlogInformation>)
                 }

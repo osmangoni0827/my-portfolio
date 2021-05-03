@@ -7,15 +7,16 @@ import {
   Route,
   Link
 } from "react-router-dom";
-const Contact=lazy(()=>import('./component/Contact/Contact/Contact')) ;
-const  Blogs= lazy(()=>import('./component/Blog/Blogs/Blogs'));
-const Portfolio=lazy(()=>import('./component/Portfolio/Portfolio'));
-const About=lazy(()=>import ('./component/About/About/About'));
-const Home= lazy(()=>import('./component/Home/Home/Home')) ;
+import About from './component/About/About/About';
+import Home from './component/Home/Home/Home';
+import Blogs from './component/Blog/Blogs/Blogs';
+import Portfolio from './component/Portfolio/Portfolio';
+import Contact from './component/Contact/Contact/Contact'
+
 function App() {
   return (
     <Router>
-    <Suspense fallback={<div>Loading...</div>}>
+    
       <Switch>
       <Route exact path="/" component={Home}/>
         <Route path="/home" component={Home}/>
@@ -24,7 +25,6 @@ function App() {
         <Route path='/blog' component={Blogs}></Route>
         <Route path='/contact' component={Contact}></Route>
       </Switch>
-    </Suspense>
   </Router>
   );
 }

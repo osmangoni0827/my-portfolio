@@ -17,7 +17,8 @@ const Home = () => {
                 <button className='btn btn-primary homebutton'>More Project</button>
                 </a>
                 </section>
-                <section className='blog-section'>
+                <section className='blog-section py-5'>
+                <h2 >My Blog</h2>
                 <Blog></Blog>
                 <a target ='_blank' href='/blog'>
                 <button className='btn btn-primary homebutton'>More Blog</button>

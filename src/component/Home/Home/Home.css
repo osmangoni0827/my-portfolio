@@ -4,7 +4,7 @@
 
 
 .projectSection{
-    background-color: #fcfdff;
+    background-color: white;
     padding-bottom: 3%;
 }
 .homebutton{
@@ -24,7 +24,19 @@
     background-color: white;
     padding-bottom: 3%;
 }
-
+.blog-section h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #0994BB;
+    display: block;
+    margin: 0px auto;
+    /* margin-top: 10%;
+    margin-bottom: 3%; */
+    width: 300px;
+    padding-bottom: 7px;
+    border-bottom: 5px solid #0994BB;
+    font-family: 'Roboto Slab', serif;
+}
 .contract{
     background-color: rgb(255, 255, 255);
 }

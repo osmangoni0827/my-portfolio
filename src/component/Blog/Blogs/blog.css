@@ -1,0 +1,14 @@
+
+.blog h2{
+        text-align: center;
+        font-size: 40px;
+        color: #0994BB;
+        display: block;
+        margin: 0px auto;
+        margin-top: 110px;
+        margin-bottom: 3%;
+        width: 220px;
+        padding-bottom: 7px;
+        border-bottom: 5px solid #0994BB;
+        font-family: 'Roboto Slab', serif;
+    }

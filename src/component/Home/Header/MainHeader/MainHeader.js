@@ -8,7 +8,7 @@ const MainHeader = () => {
         <div className='container mainheader'>
            
             <div className='row mt-5'>
-                <div className='mt-5 col-md-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 order-sm-1 order-2  d-flex align-items-center justify-content-center'>
+                <div className='mt-5  col-lg-6 col-md-6 col-sm-12 col-xs-12 order-sm-1 order-2  d-flex align-items-center justify-content-center'>
                     <div className='Intro '>
                         <h1>I am <br />
                             <span >Mohammad Osman Goni</span>

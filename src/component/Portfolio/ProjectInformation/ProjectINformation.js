@@ -61,8 +61,8 @@ const ProjectINformation = ({ info }) => {
                                 </div>
                                 <div className='link d-flex justify-content-center'>
                                     <div>
-                                    <a href={LiveSite}>Live Preview</a>
-                                    <a href={GitHub}>GitHub</a>
+                                    <a target='_blank' href={LiveSite}>Live Preview</a>
+                                    <a target='_blank' href={GitHub}>GitHub</a>
                                     </div>
                                 </div>
                             </div>
