@@ -1,15 +1,18 @@
 .navbar{
     background-color: rgb(17, 16, 16);
 }
-.navbar a{
-    padding: 6px 0px 2px 40px;  
+.active {
+    border-bottom: 4px solid white;
 }
+
 .navbar img{
     width: 80px;
 }
 .navbar ul li a{
     text-decoration: none;
-    padding: 2px 40px 2px 0px;
+    /* margin: 2px 20px 20px 0px; */
     font-size: 22px;
     color: rgb(253, 253, 253);
+    padding: 2px 15px 2px 15px;
+    color: white;
 }

@@ -37,7 +37,7 @@ const ContactInfo = () => {
                         <label for="massage">Massage</label>
                         <input type="text" name='massage' class="form-control " id="massage" placeholder="Massage" />
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Send Massage</button>
                 </form>
             </div>
             </div>

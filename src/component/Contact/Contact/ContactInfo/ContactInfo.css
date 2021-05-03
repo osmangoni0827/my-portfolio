@@ -36,9 +36,14 @@
     margin-top: 10%;
 }
 .formclass button{
+    width: 160px;
+    font-size: 20px;
+    padding: 3px;
     display: block;
     margin: 0px auto;
-    background-color: #40E0D0;
+    background-color: #1798E1;
+    color: white;
+    font-weight: 500;
 }
 .formclass input{
     height: 50px;
