@@ -7,8 +7,9 @@ const Contact = () => {
     return (
         <div className='bg-light'>
             <Navbar></Navbar>
+          
+          <section style={{color:'black'}} className='bg-light p-5'>
           <ContactInfo></ContactInfo>
-          <section style={{color:'black'}} className='bg-light'>
             <Footer color={'#000000'}></Footer>
             </section>
         </div>

@@ -7,8 +7,9 @@ const Portfolio = () => {
     return (
         <div>
             <Navbar></Navbar>
+           
+            <section className='p-5' style={{color:'white',backgroundColor:'black'}}>
             <Project></Project>
-            <section style={{color:'white',backgroundColor:'black'}}>
             <Footer color={'#FFFFFF'}></Footer>
             </section>
            

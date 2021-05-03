@@ -7,8 +7,9 @@ const Blogs = () => {
     return (
         <div>
             <Navbar></Navbar>
+            
+            <section className='p-5' style={{color:'white',backgroundColor:'black'}}>
             <Blog></Blog>
-            <section style={{color:'white',backgroundColor:'black'}}>
             <Footer color={'#FFFFFF'}></Footer>
             </section>
         </div>

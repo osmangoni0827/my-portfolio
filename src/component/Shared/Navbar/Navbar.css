@@ -1,13 +1,11 @@
 .navbar{
     background-color: rgb(17, 16, 16);
-    height: 60px;
 }
 .navbar a{
-    padding: 6px 0px 2px 40px; 
-    
+    padding: 6px 0px 2px 40px;  
 }
-.navbar a img{
-    width: 40%;
+.navbar img{
+    width: 80px;
 }
 .navbar ul li a{
     text-decoration: none;

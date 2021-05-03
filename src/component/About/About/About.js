@@ -50,7 +50,7 @@ I am learning about JavaScript-based software development technology. I love to 
                     </div>
                 </div>
                 <div className='d-flex justify-content-center bg-light'>
-                <div className='row mt-5 '>
+                <div className='row mt-3 '>
                     <div className="col-md-6 col-sm-12 col-12">
                         <Skill></Skill>
                     </div>

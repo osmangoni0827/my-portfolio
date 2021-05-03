@@ -1,20 +1,20 @@
 .projectsInfo{
-    width: 70%;
+    width: 60%;
+    /* height: 500px; */
     padding: 35px;
     margin: 20px auto;
-    background-color: rgb(252, 247, 247);
+    background-color: #ffffff;
     color: rgb(12, 12, 12);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
 .crousel{
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .crousel img{
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid #0F414D;
     border-radius: 8px;
-
 }
 
 .information{
@@ -42,7 +42,9 @@
 }
 .link{
     margin-top: 15px;
+  
 }
+
 .link a{
     width: 150px;
     text-align: center;
@@ -54,4 +56,19 @@
     border-radius: 5px;
     text-decoration: none;
     font-size: 16px;
+}
+@media screen and (max-width:600px) {
+    .link a{
+        display: block;
+        width: 150px;
+        text-align: center;
+        padding: 8px;
+        margin: 5px;
+        margin-top: 10px;
+        color: white;
+        background-color: #00CED1;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+    }
 }
