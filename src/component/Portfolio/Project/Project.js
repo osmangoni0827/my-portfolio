@@ -10,8 +10,9 @@ import clothwebsite1 from '../../../image/cloth1.JPG';
 import clothwebsite2 from '../../../image/cloth2.JPG';
 import clothwebsite3  from '../../../image/cloth3.JPG';
 
-import techzone1 from '../../../image/tec1.JPG';
-import techzone2 from '../../../image/tec2.JPG';
+import ripemango1 from '../../../image/ripemango1.JPG';
+import ripemango2 from '../../../image/ripemango2.JPG';
+import ripemango3 from '../../../image/Capture2.JPG';
 // import NodeImage from '../../../image/NodejsBanner-1-1.jpg';
 const ProjectInfo=[
     {
@@ -43,17 +44,17 @@ const ProjectInfo=[
         Technology:["HTML","CSS ", "React.js", "Bootstrap",  "React Hook Form", "firebase", "Node.js", "Express.js","MongoDB"]
     },
     {
-        name:'TECH- ZONE',
-        date:'Fabruary 2021',
-        image1:techzone1,
-        image2:techzone2,
-        image3:'',
-        description1:'It is a Complete e-comers Website. Orders are taken here for the sale of various types of technology device',
-        description2:'Users need to log in to the website to place an order',
-        description3:'Admin can add new product in website',
-        LiveSite:'https://tech-zone-22c56.web.app/',
-        GitHub:'https://github.com/osmangoni0827/Tech-Zone',
-        Technology:["React.js", "firebase"," Node.js", "Express.js", "MongoDB", "Bootstrap", "CSS","HTML"]
+        name:'RIPE MANGO SHOP',
+        date:'June 2021',
+        image1:ripemango1,
+        image2:ripemango2,
+        image3:ripemango3,
+        description1:'It is a e-commerce app. Collection of Different Type of Mangoes.',
+        description2:'Individual Description for each Mango product.Choosing Quantity of order',
+        description3:'You can add new product from dashboard and seen the total orders. In this app use the firebase auth.',
+        LiveSite:'https://ripe-mango-shop.web.app/',
+        GitHub:'https://github.com/osmangoni0827/Ripe-Mango-Shop',
+        Technology:["React.js","Redux","firebase"," Node.js", "Express.js", "MongoDB", "Bootstrap", "Material-UI", "CSS","HTML"]
     },
 ]
 const Project = () => {
